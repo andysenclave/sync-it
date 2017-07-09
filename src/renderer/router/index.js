@@ -7,6 +7,11 @@ export default new Router({
   routes: [
     {
       path: '/',
+      name: 'start',
+      component: require('@/components/Start')
+    },
+    {
+      path: '/login',
       name: 'login',
       component: require('@/components/Login')
     },
