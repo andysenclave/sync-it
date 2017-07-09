@@ -4,11 +4,10 @@
       <h1>Yello,</h1>
       <p class="subtitle">Welcome to this genius of an app</p>
       <div>
-        <input 
+        <button 
           type="button" 
-          class="bttn-black bttn-royal bttn-unite bttn-md"
-          value="Get Started"
-        />
+          class="btn-rounded primary animate"
+        >{{ fms.start.btnText }}</button>
       </div>
     </div>
   </main>
@@ -17,6 +16,15 @@
 <script>
   export default {
     name: 'login',
+    data: function () {
+      return {
+        fms: {
+          start: {
+            btnText: 'Get Started'
+          }
+        }
+      }
+    },
     methods: {
       open (link) {
         this.$electron.shell.openExternal(link)
