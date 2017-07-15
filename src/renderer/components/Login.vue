@@ -10,14 +10,14 @@
       <div class="btn-wrapper first">
         <button 
           type="button" 
-          class="btn-rounded primary "
+          class="btn-text primary "
           @click=""
         >{{ fms.login.authenticateBtnText }}</button>
       </div>
       <div class="btn-wrapper">
         <button 
           type="button" 
-          class="btn-rounded primary"
+          class="btn-text primary"
           @click="nextRoute"
         >{{ fms.login.goToAppBtnText }}</button>
       </div>
@@ -39,7 +39,7 @@
           }
         },
         navigator: {
-          nextPage: '/landing-page'
+          nextPage: '/setup'
         }
       }
     },

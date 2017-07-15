@@ -1,6 +1,7 @@
 # sync-it
 
 > An auto syncing app for desktops and laptops. It is built in electron and vue js.
+> This app requires node version = 8.1.0
 
 #### Build Setup
 

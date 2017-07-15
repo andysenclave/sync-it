@@ -4,6 +4,7 @@
   "author": "Anindya Mukherjee <anindya.themaster@gmail.com>",
   "description": "An auto syncing app for desktops and laptops. It is built in electron and vue js.",
   "license": "ISC",
+  "node": "8.1.0",
   "main": "./dist/electron/main.js",
   "scripts": {
     "build": "node .electron-vue/build.js && electron-builder",

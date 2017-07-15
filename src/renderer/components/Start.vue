@@ -6,7 +6,7 @@
       <div class="btn-wrapper first">
         <button 
           type="button" 
-          class="btn-rounded primary"
+          class="btn-text primary"
           @click="nextRoute"
         >{{ fms.start.btnText }}</button>
       </div>
